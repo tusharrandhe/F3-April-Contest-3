@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: white;
+}
+
+button{
+   cursor: pointer; 
+}
+
+header{
+    padding: 10px 20px;
+    border-bottom: 1px solid white;
+}
+
+header p{
+    display: inline;
+}
+
+header button{
+    margin-left: 30px;
+    float: right;
+    border: none;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 90vh;
+    /* border: 1px solid white; */
+}
+
+form{
+    width:60%;
+    height: 65%;
+    /* border: 1px solid white; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+form h1{
+    font-weight: normal;
+}
+
+form button{
+    background-color: white;
+    color: black;
+    padding: 7px;
+    width: 130px;
+    margin-top: 20px;
+}
+
+input{
+    padding: 8px 0px;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+}
+
+input::placeholder{
+    color: white;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: lightgreen;
+}
+
+
+/* ----- PROFILE PAGE ----- */
+
+div{
+    padding: 50px 80px;
+}
+
+div h1{
+    font-weight: normal;
+    margin-bottom: 25px;
+}
+
+div button{
+    background-color: white;
+    color: black;
+    padding: 7px;
+    width: 130px;
+    margin-top: 30px;
+}
